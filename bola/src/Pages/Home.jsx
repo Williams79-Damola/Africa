@@ -13,7 +13,7 @@ import {TbActivityHeartbeat} from 'react-icons/tb'
 import {BiDollarCircle} from 'react-icons/bi'
 import {TfiWorld} from 'react-icons/tfi'
 import {BsApple} from 'react-icons/bs'
-import {BsPlaystation} from 'react-icons/bs'
+import {FaGooglePlay} from 'react-icons/fa'
 import {SiTelegram} from 'react-icons/si'
 import {ImWhatsapp} from 'react-icons/im'
 import love from '../assets/Logo.png'
@@ -49,7 +49,7 @@ const Home =() => {
                             </div>
                             <div className='sub-B4'>
                             <button>COMMON ENTRANCE <br/> Exam</button>
-                            <button>NECO</button>
+                            <button style={{width: 100, height: 80}}>NECO</button>
                             </div> 
                         </div>
                     </div>
@@ -147,7 +147,7 @@ const Home =() => {
                 </div>
 
                 <div className='Play'>
-                    <BsPlaystation/>
+                    <FaGooglePlay/>
                     <div className='text-icons'>
                     <h1>Play store</h1>
                     <a href="#">Download Now</a>
